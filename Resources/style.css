@@ -1,4 +1,4 @@
-html {
+html * {
     font-family: "poppins", sans-serif;
     font-style: normal;
     color: black;
@@ -16,7 +16,6 @@ header {
 }
 
 header i {
-    color: black;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -49,10 +48,24 @@ header i {
     justify-content: center;
 }
 
-.videos iframe {
+.tile {
+    display: flex;
+    flex-direction: column;
+}
+
+.tile iframe {
     width: 560px;
     height: 315px;
-    margin: 5px;
+    margin: 20px 5px;
+}
+
+.functions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -10px;
 }
 
 iframe {
